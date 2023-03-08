@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+
+.sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+
+}
+.sec-b1-1 i{
+margin-right: 12px;
+margin-left: 10px;
+margin-top: 12px;
+}
+.sec-b1-1 input{
+    border:none ;
+    box-shadow:0 0 0 5px rgb(215, 210, 210 ,0.2) ;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-left: 5px;
+
+
+}
+
+.sec-b1-2{
+    border: 5px solid black;
+    padding: 18px 35px;
+    margin-top: 15px;
+}
+
+.sec-b1-3 i{
+    margin-right: 15px;
+    position:sticky;
+    position: -webkit-sticky;
+
+    }
+    .sec-b1-3 h6{
+       position: absolute;
+        top:10px;
+        right:50px;
+        left: 135em;
+        border: 2px solid blueviolet;
+        text-align: center;
+        border-radius: 50%;
+        background-color: blueviolet;
+        background-size: 40px;
+        width: 20px;
+        height: 20px;
+        
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+       
+    }
+    .navbar a{
+         text-decoration: none;
+         margin-right: 30px;
+         margin-top: 50px;
+         font-style: oblique;
+         font-weight: 400;
+    }
+     span{
+        color: blueviolet;
+    }
+
+    .sec3-p{
+        position: relative;
+        margin-top: 10px;
+        background-color: rgb(247, 217, 178);
+        height: 50px;
+    }
+    .sec3-p p{
+        margin-left: 20px;
+        padding: 15px;
+    }
+
+
+    .sec4{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 20px;
+        position: relative;
+    }
+
+
+.div1-sec4 img{
+   margin: 50px  ;
+   margin-left: 100px;
+
+}
+
+
+.div2-sec4{
+    margin: 100px 35px;
+  padding: 10px 20px;
+    
+}
+
+.div2-sec4 h1{
+    margin-bottom: 20px;
+}
+.div2-sec4 p{
+
+    margin-bottom: 20px;
+}
+
+.div2-sec4 h2{
+    margin-bottom: 20px;
+}
+
+.div2-sec4 form , input,label{
+    margin-bottom: 20px;
+}
+
+.div3-sec4 button{
+      
+    margin:0;
+    padding: 10px;
+    font-size:20px;
+    border: none;
+}
+.div3-sec4 span{
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 0 0;
+}
+
+.div3-sec4 button:hover{
+    background-color: rgb(152, 112, 190 );
+}
+
+.button3{
+    margin: 40px 0;
+    padding: 15px 30px ;
+    background-color: blueviolet;
+    border: none;
+}
+.button3:hover{
+    box-shadow: 10px 10px 8px lightblue;
+
+
+}
+
+
+.sec5{
+    background-color: rgb(168, 156, 156 ,0.3);
+    height:71%;
+ }
+ 
+ 
+ .sec5-pp{
+    margin-left: 600px;
+     margin-top:0;
+     margin-bottom:55px;
+     font-weight:850 ;
+     font-size: x-large;
+ }
+ 
+ .sec5-sec1{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    
+   
+ }
+ .sec5-sec1 .sec1-img{
+     background-color: white;
+     box-shadow: 0 0 3px 3px rgb(224 217 217 / 40%);
+     padding: 10px;
+ }
+ span{
+     color: blueviolet;
+     
+ }
+ .sec5-sec1 .sec1-img h1{
+     margin-left: 120px;
+     margin-top: 20px;
+ }
+ .sec5-sec1 .sec1-img p{
+    margin-left: 90px;
+ 
+ }
+ 
+ .sec5-sec1 .sec1-img h3{
+     margin-left: 140px;
+ 
+ }
+
+
+
+
+
+
+
+.sec6{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+   height: 30em;
+}
+.sec6 .sec6-div1 h1{
+    margin-left: 80px;
+    margin-top:-55px;
+}
+
+.div1-sec66{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div1-sec66 ul li{
+    margin-left: 80px;
+    margin-top: 25px;
+    color: rgb(81, 78, 78);
+  }
+
+  .sec6-div2 h1{
+    margin-bottom:30px;
+  }
+  .sec6-div2 img{
+    height: 150px;
+    width: 250px;
+    margin-bottom: 15px;
+  }
+  .sec6-div2 a{
+    text-decoration: none;
+  }
+  .sec6-div2 a h3{
+    margin-bottom: 10px;
+
+  }
+
+  .sec6-div2 p{
+    margin-bottom:15px;
+
+  }
+
+  .div3-sec6{
+    display: flex;
+    margin-right: 20px;
+
+    padding: 10px;
+  }
+
+  .div3-sec6 i{
+    margin-right: 15px;
+  }
+
+  .sec6-div3 h3{
+    margin-bottom: 13px;
+  }
+  .sec6-div3 input{
+    padding: 11px;
+  }
+  .sec6-div3 button{
+    position: absolute;
+    padding: 12px;
+    border:none;
+  }
+ .sec7{
+    height: 50px;
+ }
+  .sec7 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 200px ;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    

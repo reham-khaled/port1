@@ -1,0 +1,269 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+
+.sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+
+}
+.sec-b1-1 i{
+margin-right: 12px;
+margin-left: 10px;
+margin-top: 12px;
+}
+.sec-b1-1 input{
+    border:none ;
+    box-shadow:0 0 0 5px rgb(215, 210, 210 ,0.2) ;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-left: 5px;
+
+
+}
+
+.sec-b1-2{
+    border: 5px solid black;
+    padding: 18px 35px;
+    margin-top: 15px;
+}
+
+.sec-b1-3 i{
+    margin-right: 15px;
+    position:sticky;
+    position: -webkit-sticky;
+
+    }
+    .sec-b1-3 h6{
+       position: absolute;
+        top:10px;
+        right:50px;
+        left: 135em;
+        border: 2px solid blueviolet;
+        text-align: center;
+        border-radius: 50%;
+        background-color: blueviolet;
+        background-size: 40px;
+        width: 20px;
+        height: 20px;
+        
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+       
+    }
+    .navbar a{
+         text-decoration: none;
+         margin-right: 30px;
+         margin-top: 50px;
+         font-style: oblique;
+         font-weight: 400;
+    }
+     span{
+        color: blueviolet;
+    }
+
+    .sec3-p{
+        position: relative;
+        margin-top: 10px;
+        background-color: rgb(247, 217, 178);
+        height: 50px;
+    }
+    .sec3-p p{
+        margin-left: 20px;
+        padding: 15px;
+    }
+
+
+    .sec4{
+       
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 60px;
+        margin:50px 20px;
+        
+    }
+
+
+    .sec4-word h1,p{
+        margin-left: 100px;
+
+    }
+
+    .sec4-word h1{
+        margin-bottom: 30px;
+        font-size: 50px;
+    }
+    .sec5{
+        position: relative;
+        height: 100vh;
+        margin-top:50px;
+
+    }
+.sec5 .main-pa{
+    position: absolute;
+    font-size: 50px;
+    margin-bottom:100px;
+    top:-65px;
+    left: 10em;
+    border-top: 2 px solid black;
+}
+    .sec5-img{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .sec5-main img{
+        margin-left:70px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .sec5-img h1{
+        margin-left: 80px;
+
+    }
+
+
+ .sec5-img .p1{
+    margin-left: 100px;
+    
+ }
+
+ .sec5-img .p2{
+    margin-left: 60px;
+    margin-right: 60px;
+ }
+
+
+
+ .sec6{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+     top: 68em;
+    left: 10px;
+
+}
+.sec6-ip{
+    display: flex;
+
+}
+.sec6-ip h3,p{
+    margin-left: 20px;
+}
+.sec6-ip i{
+    font-size:30px;
+    color: blueviolet;
+}
+.sec6-ip i.fa-truck-plane{
+    margin-right:20px;
+}
+.sec6-ip i.fa-rotate-right{
+    margin-right: 20px;
+    
+}
+.sec6-ip i.fa-circle-question{
+    margin-right: 20px;
+}
+
+
+.sec7{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+   height: 50%;
+}
+.sec7 .sec7-div1 h1{
+    margin-left: 80px;
+    margin-top:-55px;
+}
+
+.div1-sec77{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div1-sec77 ul li{
+    margin-left: 80px;
+    margin-top: 25px;
+    color: rgb(81, 78, 78);
+  }
+
+  .sec7-div2 h1{
+    margin-bottom:30px;
+  }
+  .sec7-div2 img{
+    height: 150px;
+    width: 250px;
+    margin-bottom: 15px;
+  }
+  .sec7-div2 a{
+    text-decoration: none;
+  }
+  .sec7-div2 a h3{
+    margin-bottom: 10px;
+
+  }
+
+  .sec7-div2 p{
+    margin-bottom:15px;
+
+  }
+
+  .div3-sec7{
+    display: flex;
+    margin-right: 20px;
+
+    padding: 10px;
+  }
+
+  .div3-sec7 i{
+    margin-right: 15px;
+    color: blueviolet;
+  }
+
+  .sec7-div3 h3{
+    margin-bottom: 13px;
+  }
+  .sec7-div3 input{
+    padding: 11px;
+  }
+  .sec7-div3 button{
+    position: absolute;
+    padding: 12px;
+    border:none;
+  }
+ .sec8{
+    height: 90px;
+ }
+  .sec8 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 20px ;
+  }
+
+
+
